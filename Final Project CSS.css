@@ -1,0 +1,49 @@
+#background {
+	background-color: #ebd5b3;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+a:link, a:visited {
+	background-color:green;
+	color:white;
+	padding:15px 25px;
+	text-decoration:none;
+	text-align:center;
+}
+
+a:hover {
+	background-color:yellow;
+}
+
+a:active {
+	color:red;
+}
+
+ul.nav {
+	list-style-type:none;
+	background-color:gray;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+
+.nav li {
+	float:left;
+}
+
+.nav li a {
+	color:white;
+	text-decoration:none;
+	padding:15px;
+	display:inline-block;
+}
+
+.nav li a:hover {
+	background-color:black;
+}
+
