@@ -36,6 +36,12 @@ ul.nav {
 	text-align:center;
 }
 
+.center {
+	margin:auto;
+	display:block;
+}
+
+
 .nav li.right {
 	float:right;
 	border: solid 1px;
@@ -74,7 +80,33 @@ body {
 	font-family:tahoma;
 }
 
+#padded {
+	padding-right:300px;
+}
 
+p {
+	color:black;
+	text-decoration:none;
+	padding:40px 40px 0px 40px;
+	display:inline-block;
+	font-family:papyrus;
+	text-align:center;
+	font-size: 20px;
+	font-weight:bold;
+}
 
+.foot {
+	margin:auto;
+	display:block;
+}
 
+.img_left {
+	float:left;
+	padding:20px;
+}
+
+.img_right {
+	float:right;
+	padding:20px;
+}
 
